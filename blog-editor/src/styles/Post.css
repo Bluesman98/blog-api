@@ -1,0 +1,46 @@
+.Post{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 1rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    background-color: white;
+}
+
+.Post>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+}
+
+.Post>div>.title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Post>div>.date{
+    display: flex;
+    flex-direction: column;
+    font-size: .8rem;
+}
+
+.Post>.content{
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+
+.Post>.comments{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.comment-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+

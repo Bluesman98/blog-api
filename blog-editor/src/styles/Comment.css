@@ -1,0 +1,17 @@
+.Comment{
+    padding-bottom: 1rem;
+    border-bottom: .1rem  rgb(171, 169, 169) solid;
+}
+
+.Comment>div:first-child{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .2rem;
+    font-size: 80%;
+}
+
+.Comment *.date{
+    display: flex;
+    gap: 1rem;
+}
+
